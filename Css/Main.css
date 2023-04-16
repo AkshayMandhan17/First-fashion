@@ -1,0 +1,1868 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0  auto;
+	padding: 0;
+}
+.container
+{
+	width: 100%;
+	height:6890px;
+	background-color:#1F2322;
+}
+/*GO TOP BUTTON HERE*/
+#TopBtn
+{
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 40px;
+	border: none;
+	outline: none;
+	background-color:#672B33;
+	color: white;
+	transition: 0.6s;
+	cursor: pointer;
+	display: none;
+	z-index: 3;
+}
+#TopBtn:hover
+{
+	background-color: black;
+}
+#TopBtn:focus
+{
+	outline: none;
+	border: none;
+}
+/*Navigation here*/
+.nav-home
+{
+	width: 100%;
+	height: 90px;
+	background-color:rgba(31,35,34,0.71);
+	position: sticky;
+	top: 0;
+	z-index:1;
+}
+.nav-align
+{
+	width: 1300px;
+}
+.nav-list
+{
+	width: 780px;
+	height: 80px;
+	float: left;
+	margin: 20px 0px 0px 300px;
+}
+.nav-home ul li
+{
+	list-style-type: none;
+	padding: 25px 20px 15px 15px;
+	font-size: 25px;
+	margin-left: 10px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: inline-block;
+}
+.bor-top
+{
+	position: relative;
+}
+.bor-top:after
+{
+	content: '';
+	position: absolute;
+	border-top: 1px solid #fff;
+	top: 0;
+	left: 0;
+	right: 100%;
+	transition: all 500ms;
+}
+.bor-top:hover:after
+{
+	right: 0;
+}
+.active
+{
+	border-top: 1px solid #fff;
+}
+.nav-home ul li a
+{
+	text-decoration: none;
+	color:#fff;;
+}
+/*Website intro pic here*/
+.Web-intro
+{
+	min-height:1200px;
+	background-image: url("../Img/Home Page/Dark.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Web-name-align
+{
+	width: 1300px;
+}
+.Web-name
+{
+	width: 700px;
+	height: 400px;
+	float: left;
+	margin: 350px 0px 350px 330px;
+}
+.Web-name h1
+{
+	font-size: 90px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+}
+.Web-name h1 a
+{
+	text-decoration: none;
+	color: white;
+}
+.web-name-p
+{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+/*Parallax images here*/
+.parallax
+{
+	width: 100%;
+	min-height: 1000px;
+	background-color:white;
+}
+.fashion-design
+{
+	width: 65%;
+	min-height: 500px;
+	float: left;
+}
+.fashion-design-details
+{
+	width: 50%;
+	min-height: 500px;
+	background-color:white;
+	float: left;
+}
+.fashion-label
+{
+	font-family:'Raleway', sans-serif;
+	font-size: 40px;
+	float: left;
+	margin: 80px 0px 0px 30px;
+}
+.design-label
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	margin-top: 140px;
+	margin-left: 30px;
+}
+.fashion-design-details-p
+{
+	width: 90%;
+	height: 200px;
+	font-family: 'Abel' , sans-serif;
+	color:#636363;
+	word-spacing: 3px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.fashion-design-image
+{
+	width: 50%;
+	min-height: 500px;
+	float: right;
+	background-image: url("../Img/Home Page/modelssss.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fashion-design-img1
+{
+	width: 35%;
+	min-height: 1000px;
+	background-image: url("../Img/Home Page/modelsss.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: right;
+}
+.img-1-text
+{
+	width: 90%;
+	height: 240px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	margin-top: 730px;
+	word-spacing: 3px;
+	line-height: 40px;
+}
+.parallax-image
+{
+	width: 65%;
+	min-height:1000px;
+	background-image: url("../Img/Home Page/what.jpg");
+	background-size:cover;
+	background-position:top;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	float: left;
+}
+.parallax-image-text
+{
+	width: 90%;
+	height: 220px;
+	color: #fff;
+	font-family:'Raleway', sans-serif;
+	margin:390px 0px 390px 40px;
+	font-size: 60px;
+	text-align: center;
+	line-height: 70px;
+}
+.fashion-design-img2
+{
+	width: 35%;
+	min-height: 1000px;
+	background-image: url("../Img/Home Page/Model.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: right;
+}
+.production
+{
+	width: 65%;
+	min-height: 500px;
+	float: left;
+	background-color: white;
+}
+.production-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55px;
+	font-weight: 500;
+	margin: 60px 0px 0px 30px;
+}
+.production-heading-bold-text
+{
+	width: 90%;
+	height: 150px;
+	font-family:'Raleway', sans-serif;
+	float: left;
+	margin: 30px 0px 0px 30px;
+	font-size: 25px;
+	line-height: 40px;
+	word-spacing: 2px;
+}
+.production-heading-normal-text
+{
+	width: 95%;
+	height: 180px;
+	font-family:'Raleway', sans-serif;
+	color:#636363;
+	float: left;
+	margin: 0px 0px 0px 30px;
+	line-height: 25px;
+	word-spacing: 4px;
+}
+.fashion-concepts
+{
+	min-height: 1100px;
+	width: 100%;
+	background-image: url("../Img/Home Page/ever.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	float: left;
+}
+.fashion-concepts-details
+{
+	width: 50%;
+	height: 500px;
+	float: right;
+	margin-top: 300px;
+}
+/*OUR CONCEPTS PARALLAX HERE*/
+.our-fashion-label
+{
+	font-family:'Raleway', sans-serif;
+	font-size: 70px;
+	color: white;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+.concept-label
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 90px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 4px;
+	margin-top: 120px;
+	margin-left: 30px;
+}
+.concept-text
+{
+	width: 90%;
+	height: 250px;
+	font-family:'Raleway', sans-serif;
+	font-size: 25px;
+	color:#fff;;
+	line-height: 40px;
+	word-spacing: 4px;
+	margin-top: 30px;
+}
+/*PRODUCTS HERE*/
+.Brands-msg
+{
+	width: 100%;
+	height: 200px;
+	background-color:#EDEDED;
+	float: left;
+}
+.Brands-msg-text
+{
+	width: 405px;
+	height: 180px;
+}
+.products-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	margin-top: 60px;
+	color:#454545;
+	transition: 0.6s;
+}
+.products-msg
+{
+	font-family:'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	color: #454545;
+}
+.Product-img
+{
+	width: 50%;
+	height: 600px;
+	float: left;
+	position: relative;
+	font-family:'Raleway', sans-serif;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.Product-img img
+{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 600px;
+	transition: 0.5s ease;
+}
+.Product-img:hover img
+{
+	transform: scale(1.05);
+}
+.content
+{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transform-ms-: translate(-50%, -50%);
+	text-transform: uppercase;
+	font-size: 60px;
+	color: white;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.content a 
+{
+	font-size: 24px;
+	display: block;
+	background-color:#48739d;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.overlay
+{
+	opacity: 0;
+	transition: 0.7s ease;
+}
+.Product-img:hover img
+{
+	opacity: 0.5;
+}
+.Product-img:hover .overlay
+{
+	opacity: 1;
+}
+.anchor-cat
+{
+	text-decoration: none;
+	color: white;
+}
+/*Footer Here*/
+footer
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-color:white;
+}
+.footer-align
+{
+	width: 1300px;
+	height: 500px;
+}
+.footer-navigation
+{
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin-top: 120px;
+}
+.footer-navigation li
+{
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	margin: 25px 0px 0px 60px;
+	font-size: 15px;
+}
+.footer-navigation li a
+{
+	color: #9B9B9B;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.footer-navigation li a:hover
+{
+	color: black;
+}
+.footer-logo
+{
+	width: 500px;
+	height: 260px;
+	float: left;
+	margin: 125px 0px 125px 125px;
+}
+.footer-logo h1
+{
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color:black;
+	text-align: center;
+}
+.footer-logo h1 a
+{
+	text-decoration: none;
+	color: black;
+}
+.footer-logo-p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+.copyright
+{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 12px;
+	color: #9B9B9B;
+}
+.footer-newsletter
+{
+	width: 330px;
+	height: 250px;
+	float: left;
+	margin: 125px 0px 125px 125px;
+}
+.footer-newsletter h1
+{
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.footer-newsletter input[type=email]
+{
+	width: 230px;
+	height: 45px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #9B9B9B;
+	border: 2px solid #CDCDCD;
+	text-indent: 10px;
+}
+.footer-newsletter input[type=email]:focus
+{
+	outline: 1px solid #cdcdcd;
+}
+.footer-email-btn
+{
+	width: 50px;
+	height: 49px;
+	background-color: white; 
+	border-top: 2px solid #CDCDCD;
+	border-right:2px solid #CDCDCD;
+	border-bottom: 2px solid #CDCDCD;
+	border-left: 0px;
+	padding-left: 0px;
+	float:right;
+	margin: 20px 46px 0px 0px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.footer-email-btn:hover
+{
+	color:white;
+	background-color: black;
+	border: none;
+}
+.icon-btn-email
+{
+	transform: rotate(90deg);
+}
+.footer-icons
+{
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-top: 40px;
+}
+.f-icons
+{
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #cdcdcd;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.f-icons:hover
+{
+	color: black;
+}
+.privacy-policy
+{
+	color:#9B9B9B;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.privacy-policy:hover
+{
+	color:maroon;
+}
+
+/*PRIVACY POLICY PAGE CSS HERE*/
+.container-privacy
+{
+	width: 100%;
+	height:auto;
+}
+/*Privacy Policy HEADER*/
+header
+{
+	width: 100%;
+	height: 100px;
+	position:sticky;
+	background-color:#fff;
+	top: 0;
+	z-index:1;
+}
+.header-align
+{
+	width: 1200px;
+}
+.logo
+{
+	width: 250px;
+	height: 45px;
+	float: left;
+	margin: 30px 0px 30px 0px;
+	text-align: center;
+}
+.logo-PP
+{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.logo-PP a
+{
+	color: black;
+	text-decoration: none;
+}
+.nav-PP
+{
+	width: 420px;
+	height: 70px;
+	float: right;
+	margin: 25px 0px 5px 0px;
+}
+.nav-PP ul
+{
+	list-style: none;
+}
+.nav-PP ul li
+{
+	float: left;
+	padding: 15px 5px 15px 5px;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: inline-block;
+	color: #959595;
+}
+.nav-PP ul li a
+{
+	color: #959595;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.nav-PP ul li:hover a
+{
+	color: black;
+}
+
+.bor-top-pp
+{
+	position: relative;
+}
+.bor-top-pp:after
+{
+	content: '';
+	position: absolute;
+	border-top: 1px solid #000;
+	top: 0;
+	left: 0;
+	right: 100%;
+	transition: all 500ms;
+}
+.bor-top-pp:hover:after
+{
+	right: 0;
+}
+.active-pp
+{
+	border-top: 1px solid #000;
+}
+/*Privacy Policy HEADER*/
+
+/*Privacy Policy Content Here*/
+.privacy-policy-content
+{
+	width: 1200px;
+	height:auto;
+}
+.pp-heading
+{
+	width: 520px;
+	height: 70px;
+	margin: 50px 0px 0px 0px;
+	font-size: 60px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+.pp-sub_heading
+{
+	width: auto;
+	height: 30px;
+	margin: 50px 0px 0px 0px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+.pp-text
+{
+	font-family:'Raleway', sans-serif;
+	color: #959595;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.demo-link
+{
+	cursor: pointer;
+	transition: 0.6s;
+}
+.demo-link:hover
+{
+	color: maroon;
+}
+/*Privacy Policy Content End Here*/
+/*PRIVACY POLICY PAGE CSS END HERE*/
+
+/*About Us Page Css Here*/
+.about-container
+{
+	width: 100%;
+	height:auto;
+}
+.about-pictures
+{
+	width: 100%;
+	height: 380px;
+	background-color:white;
+	margin-top: 50px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.about-picture-1
+{
+	width: 33.33%;
+	height: 380px;
+	float: left;
+	background-image: url("../Img/About Page/1.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	transition: 0.5s ease;
+	overflow: hidden;
+}
+.about-picture-1:hover
+{
+	transform: scale(1.05);
+}
+.about-picture-2
+{
+	width: 33.33%;
+	height: 380px;
+	float: left;
+	background-image: url("../Img/About Page/2.jpg");
+	background-size: cover;
+	background-position:top;
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+.about-picture-2:hover
+{
+	transform: scale(1.05);
+}
+
+.about-picture-3
+{
+	width: 33.33%;
+	height: 380px;
+	float: right;
+	background-image: url("../Img/About Page/3.jpg");
+	background-size: cover;
+	background-position:top;
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+.about-picture-3:hover
+{
+	transform: scale(1.05);
+}
+
+.about-content
+{
+	width: 1200px;
+	height:auto;
+}
+.ab-heading
+{
+	width:auto;
+	height: 70px;
+	margin: 50px 0px 0px 0px;
+	font-size: 60px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+.ab-sub_heading
+{
+	width: auto;
+	height: 40px;
+	margin: 30px 0px 0px 0px;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+.ab-text
+{
+	font-family:'Raleway', sans-serif;
+	color: #959595;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+
+/*About Us Page Css End Here*/
+
+
+
+/*News Page Css Here*/
+
+.container-news
+{
+	width: 100%;
+	height:2100px;
+	background-color: #888;
+}
+.logo
+{
+	height: 20px;
+	width: 30%;
+	float: left;
+	font-size: 45px;
+    padding-left: 19px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bar
+{
+	width: 50%;
+	height: 70px;
+	float: right;
+	margin-top: 20px;
+}
+.nav-bar ul li
+{
+	list-style-type: none;
+	float: left;
+	padding: 20px 15px;
+	margin-right: 10px;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: inline-block;
+}
+.bor-top
+{
+	position: relative;
+}
+.bor-top:after
+{
+	content: '';
+	position: absolute;
+	border-top: 1px solid #fff;
+	top: 0;
+	left: 0;
+	right: 100%;
+	transition: all 500ms;
+}
+.bor-top:hover:after
+{
+	right: 0;
+}
+.active
+{
+	border-top: 1px solid #fff;
+}
+.nav-bar ul li a
+{
+	text-decoration:none;
+	color:#fff;}
+
+
+
+.collection-img1{
+
+    width: 50%;
+    height: 500px;
+    float: left;
+    background: url("../Img/News Page/img01.jpg");
+    background-size: cover;
+	cursor: default;
+}
+.collection-fashion
+{
+	width: 600px;
+	height: 200px;
+    color: white;
+	margin-top: 250px;
+}
+.time{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.fashion-H
+{
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+.fashion-text
+{
+	font-size: 40px;
+	font-family: 'Raleway',sans-serif;
+	transition: 0.5s ease;
+	overflow: hidden;
+}
+
+.fashion-text:hover
+{
+	font-size: 38px;
+}
+.fashion-para
+{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+}	
+.collection-img2{
+	width: 50%;
+	height: 500px;
+	background-color:#c4c5c6;
+	float: right;
+	background: url("../Img/News Page/img02.jpg");
+    background-size: cover;
+	cursor: default;
+
+}
+.collection-trends{
+	width: 600px;
+	height: 200px;
+    color: white;
+    margin-top: 250px;
+}
+.time-x{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.trends
+{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	transition: 0.5s ease;
+}
+.trends:hover
+{
+	font-size: 36px;
+}
+.trends-text{
+	font-size: 28px;
+	font-family: 'Raleway',sans-serif;
+}
+.trends-para{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+
+}
+
+.collection-img3{
+
+    width: 50%;
+    height: 500px;
+    background-color: antiquewhite;
+    float: left;
+    background: url("../Img/News Page/img03.jpg");
+    background-size: cover;
+	cursor: default;
+  }
+.collection-winter{
+	width: 600px;
+	height: 200px;
+    color: white;
+    margin-top: 250px;
+}
+.time-x{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+}
+.winter{
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.winter-sale{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	transition: 0.5s ease;
+}
+
+.winter-sale:hover
+{
+	font-size: 36px;
+}
+.winter-para
+{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+}	
+.collection-article4
+{
+	width: 50%;
+	height: 500px;
+	background-color:white;
+	float: right;
+	cursor: default;
+}
+.article-text
+{
+	width: 473px;
+	height:250px;
+    background-color:white;
+    margin-top: 125px;
+}
+
+.anchor
+{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+	transition: 0.5s ease;
+}
+.anchor:hover
+{
+	color: brown;
+	font-size: 38px;
+}
+.article-new-season{
+	font-family: 'Raleway',sans-serif;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 400;
+	color: #13171f;
+
+}
+.article-fashion-para{
+	width: 500px;
+	height: 60px;
+	margin-top: 27px;
+	text-align: center;
+	font-size: 14px;
+	font-family:'Raleway', sans-serif;
+    color: #888;
+    line-height: -1.4px;
+}
+.collection-text
+{
+    width: 50%;
+    height:500px;
+    background-color:white;
+    float: left;
+}
+.main-text
+{
+	width: 450px;
+	height: 200px;
+	margin-top: 150px;
+}
+.welcome
+{    
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+	cursor: default;
+	transition: 0.5s ease;
+}
+.welcome:hover
+{
+	color: brown;
+	font-size: 38px;
+
+}	
+.para-text
+{    
+	width: 473px;
+    height: 130px;
+    font-size: 30px;
+	font-family:'Raleway', sans-serif;
+    text-align: center;
+    color: #454b56;
+    margin-top: 14px;
+}
+.collection-img6
+{
+	width: 50%;
+	height: 500px;
+	background-color:#a8c5ff;
+	float: right;
+	background: url("../Img/News Page/img04.jpg");
+    background-size: cover;
+	cursor: default;
+}
+.collection-model
+{
+	width: 600px;
+	height: 200px;
+	left: 3.5%;
+    color: white;
+    margin-top: 250px;
+}
+.time-x
+{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+}
+.model
+{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	transition: 0.5s ease;
+}
+.model:hover
+{
+	font-size: 36px;
+}
+.model-text
+{
+	font-size: 28px;
+	font-family: 'Raleway',sans-serif;
+}
+.model-para
+{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+}
+/*Contact us page css*/
+.contact-container
+{
+	width: 100%;
+	height:auto;
+}
+.Contact-content
+{
+	width: 1200px;
+	height: 500px;
+}
+.Contact-heading
+{
+	width:100%;
+	height:80px;
+	float: left;
+	margin-top: 50px;
+}
+.contact-lbl
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: 400;
+	margin-left: 75px;
+}
+.Contact-textbox
+{
+	width: 28%;
+	height: 200px;
+	float: left;
+	margin: 40px 0px 0px 75px;
+}
+.contact-text
+{
+	color: #9c9c9c;
+	font-family: 'Raleway' , sans-serif;
+	margin-top: 15px;
+}
+.Contact-form
+{
+	width: 65%;
+	height: 500px;
+	float: right;
+	margin: 0px 5px 0px 0px;
+}
+.contact-input
+{
+	width: 80%;
+	height: 60px;
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Raleway' , sans-serif;
+	color: #9c9c9c;
+	text-indent:30px;
+	float: right;
+	margin-top: 15px;
+}
+.contact-input:focus
+{
+	outline: none;
+}
+.contact-textarea
+{
+	width: 80%;
+	height: 200px;
+	resize: none;
+	font-size: 17px;
+	font-family: 'Raleway' , sans-serif;
+	color: #9c9c9c;
+	text-indent: 30px;
+	float: right;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+.contact-textarea:focus
+{
+	outline: none;
+}
+.f-btn
+{
+	width: 32%;
+	height: 60px;
+	background-color: black;
+	color: white;
+	border: 1px solid #000;
+	font-family: 'Raleway' , sans-serif;
+	margin-top: 15px;
+	transition: 0.5s;
+	cursor: pointer;
+	float: left;
+	margin-left: 20%;
+}
+.f-btn:hover
+{
+	background-color: #8d3a45;
+	border-color: #8d3a45;
+}
+.Form-hover
+{
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.Form-hover:hover
+{
+	color: maroon;
+}
+
+/*Nike Css Here*/
+.container-Nike
+{
+	width: 100%;
+	height:auto;
+}
+.Nike-Content
+{
+	width: 1200px;
+	height: 2300px;
+}
+.P-intro-pic
+{
+	width:100%;
+	height: 250px;
+	background-image: url("../Img/Nike/Nike Intro.png");
+	background-color: #f6f6f6;
+}
+.P-intro-text
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin: 100px 0px 100px 0px;
+	text-align: center;
+}
+.P-intro-heading
+{
+	font-size: 50px;
+	font-family: 'Raleway',sans-serif;
+	color: #575757;
+	margin-left: 10px;
+}
+.Product-Div
+{
+	width: 70%;
+	height: 300px;
+	float: right;
+	margin-top: 30px;
+	transition: 0.3s ease;
+}
+.Product-Div:hover
+{
+	border: 1px solid #a8a8a8;
+	box-shadow: 4px 4px 2px 2px #a8a8a8;
+}
+.Product-Details
+{
+	width: 60%;
+	height: 300px;
+	background-color: #f6f6f6;
+	float: right;
+}
+.Product-Image
+{
+	width: 35%;
+	height: 300px;
+	background-color: #F6f6f6;
+	float: left;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.detail-head
+{
+	width: 100%;
+	height: 70px;
+}
+.Product-heading
+{
+	width: 100%;
+	height: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 10px 0px 0px 10px;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.Product-heading:hover
+{
+	color: #9F4B4D;
+}
+.Rating
+{
+	float: right;
+	margin-right: 20px;
+}
+.Branding
+{
+	font-family: 'Raleway',sans-serif;
+	color: #a8a8a8;
+	font-size: 15px;
+	margin-top: 5px;
+}
+.detail-body
+{
+	width: 100%;
+	height: 220px;
+}
+.price
+{
+	color:#696969;
+	font-size: 18px;
+	font-family: 'Montserrat',sans-serif;
+	margin: 0px 0px 0px 20px;
+}
+.detail-text
+{
+	width: 90%;
+	font-family: 'Raleway',sans-serif;
+	float: left;
+	margin: 20px 0px 0px 20px;
+}
+.detail-icons
+{
+	width: 90%;
+	height: 50px;
+	float: left;
+	margin: 20px 0px 0px 20px;
+}
+.detail-iconBox
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #a8a8a8;
+	float: left;
+	margin: 10px 0px 10px 15px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.detail-iconBox:hover
+{
+	background-color:#ff7f00;
+	color: white;
+	border: 1px solid #ff7f00;
+}
+.detail-iconBox:hover .icon-style
+{
+	color: white;
+}
+.icon-style
+{
+	font-size: 15px;
+	margin: 8px 0px 0px 8px;
+	color: #a8a8a8;
+}
+.Product-Categories
+{
+	width: 25%;
+	height: 450px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+}
+.Categories-Heading
+{
+	width: 150px;
+	height: 40px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+.Categories-Heading h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+.category1
+{
+	width: 100px;
+	height: 30px;
+	font-family: 'Raleway',sans-serif;
+	margin: 100px 0px 0px 30px;
+	font-size: 25px;
+	transition: 0.4s;
+}
+.category1:hover
+{
+	color: maroon;
+}
+.style
+{
+	color: black;
+	text-decoration: none;
+}
+.category2
+{
+	width: 100px;
+	height: 30px;
+	font-family: 'Raleway',sans-serif;
+	margin: 20px 0px 0px 30px;
+	font-size: 25px;
+	transition: 0.4s;
+}
+.category2:hover
+{
+	color: maroon;
+}
+.category3
+{
+	width: 200px;
+	height: 30px;
+	font-family: 'Raleway',sans-serif;
+	margin: 20px 0px 0px 30px;
+	font-size: 25px;
+	transition: 0.4s;
+}
+.category3:hover
+{
+	color: maroon;
+}
+.Product-Range
+{
+	width: 25%;
+	height: 200px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+}
+.Range-Heading
+{
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+.Range-Heading h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+.Range-text
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #a8a8a8;
+	float: left;
+	margin: 10px 0px 0px 30px;
+}
+.range-bar
+{
+	width: 200px;
+	float: left;
+	margin: 15px 0px 0px 30px;
+}
+.Product-Colors
+{
+	width: 25%;
+	height: 350px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6; 
+}
+.Colors-Heading
+{
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+.Colors-Heading h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+.Color
+{
+	width: 80%;
+	height: 20px;
+	float: left;
+	margin: 18px 0px 0px 20px;
+	cursor: pointer;
+}
+
+.color-name
+{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	transition: 0.6s;
+}
+.color-name:hover
+{
+	color: maroon;
+}
+.color-box1
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: lightcoral;
+	float: left;
+	margin-left: 20px;
+}
+.color-box2
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color:red;
+	float: left;
+	margin-left: 20px;
+}
+.color-box3
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color:green;
+	float: left;
+	margin-left: 20px;
+}
+.color-box4
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: aqua;
+	float: left;
+	margin-left: 20px;
+}
+.color-box5
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: yellow;
+	float: left;
+	margin-left: 20px;
+}
+.color-box6
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: purple;
+	float: left;
+	margin-left: 20px;
+}
+.Oper-system
+{
+	width: 25%;
+	height: 350px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+}
+.Oper-Heading
+{
+	width: 180px;
+	height: 40px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+.Oper-Heading h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+.Oper
+{
+	width: 80%;
+	height: 30px;
+	float: left;
+	margin: 5px 0px 0px 20px;
+}
+.Oper-name
+{
+	font-family: 'Raleway',sans-serif;
+	font-size: 16px;
+	color: #a9a9a9;
+	margin-top: 7px; 
+}
+.checkbox
+{
+	width: 50px;
+	height: 20px;
+	float: left;
+	margin-top:7px;
+}
+.Recent-Products
+{
+	width: 25%;
+	height: 350px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+}
+.Recent-Heading
+{
+	width: 170px;
+	height: 40px;
+	float: left;
+	margin: 30px 0px 0px 30px;
+}
+.Recent-Heading h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+}
+.Recent-Product1
+{
+	width: 80%;
+	height: 70px;
+	float: left;
+	margin: 15px 10% 0px 10%;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.Recent-Product1:hover
+{
+	box-shadow: 3px 3px 2px 2px #a8a8a8;
+}
+.Recent-Product-img-nike
+{
+	width: 40%;
+	height: 70px;
+	background-image: url("../Img/Nike/2.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.Recent-Product-img-tommy
+{
+	width: 40%;
+	height: 70px;
+	background-image: url("../Img/Tommy/WJ.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.Recent-Product-img-adidas
+{
+	width: 40%;
+	height: 70px;
+	background-image: url("../Img/Adidas/adidas2.PNG");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.Recent-Product-details
+{
+	width: 57%;
+	height: 70px;
+	float: right;
+}
+.Recent-Product-details h3
+{
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	color:#505050;
+	margin-left: 5px;
+}
+.price-recent
+{
+	font-family: 'Raleway',sans-serif;
+	font-size: 16px;
+	margin: 5px 0px 0px 5px;
+	color: #545454;
+}
+/*Nike Css Here*/
+/*Tommy Css Here*/
+.container-Tommy
+{
+	width:100%;
+	height:2300px;
+}
+/*Products Page Css here*/
+.container-products
+{
+	width: 100%;
+	height: auto;
+}
+.Product-Content
+{
+	width: 1200px;
+	height: 4100px;
+}
+.link-picture
+{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+	background-image: url("../Img/About Page/2.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.link-picture:hover 
+{
+	opacity: 0.85;
+}
+.link-picture:hover .link-text h4
+{
+	font-size: 21px;
+}
+
+.link-text
+{
+	width: 90%;
+	height: 50px;
+	float: left;
+	margin: 320px 5% 30px 5%;
+}
+.link-text a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.link-text h4
+{
+	font-family: 'Raleway',sans-serif;
+	font-size: 22px;
+	color: White;
+	text-align: center;
+	transition: 0.6s ease;
+}
+.link-picture2
+{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+	background-image: url("../Img/News Page/img01.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.link-picture2:hover 
+{
+	opacity: 0.85;
+}
+.link-picture2:hover .link-text h4
+{
+	font-size: 21px;
+}
+.link-picture3
+{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+	background-image: url("../Img/Nike/2.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.link-picture3:hover 
+{
+	opacity: 0.85;
+}
+.link-picture3:hover .link-text h4
+{
+	font-size: 21px;
+}
+.link-picture4
+{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+	box-shadow: 5px 5px #f6f6f6;
+	border: 1px solid #f6f6f6;
+	background-image: url("../Img/Tommy/WJ.jpg");
+	background-size: cover;
+	background-position: center;
+	transition: 0.6s;
+	cursor: pointer;
+}
+.link-picture4:hover 
+{
+	opacity: 0.85;
+}
+.link-picture4:hover .link-text h4
+{
+	font-size: 21px;
+}
+
+

@@ -1,0 +1,663 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+body,html
+{
+	height: 100%;
+	width: 100%;
+}
+.container
+{
+	width: 100%;
+	height:auto;
+	background-color: #888;
+}
+	.top-header{
+		width: 100%;
+		height: 100px;
+}
+	.main-header{
+		width: 1100px;
+		height: 50px;
+		background-color:transparent;
+		
+	}
+.logo{
+	height: 20px;
+	width: 30%;
+	float: left;
+	font-size: 45px;
+    padding-left: 19px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+.nav-bar
+{
+	width: 50%;
+	height: 70px;
+	float: right;
+	margin-top: 20px;
+
+}
+.nav-bar ul li
+{
+	list-style-type: none;
+	float: left;
+	padding: 20px 15px;
+	margin-right: 10px;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: inline-block;
+}
+.bor-top
+{
+	position: relative;
+}
+.bor-top:after
+{
+	content: '';
+	position: absolute;
+	border-top: 1px solid #fff;
+	top: 0;
+	left: 0;
+	right: 100%;
+	transition: all 500ms;
+}
+.bor-top:hover:after
+{
+	right: 0;
+}
+.active
+{
+	border-top: 1px solid #fff;
+}
+.nav-bar ul li a
+{
+	text-decoration:none;
+	color:#fff;}
+
+
+
+.collection-img1{
+
+    width: 50%;
+    height: 500px;
+    float: left;
+    background: url("img/img01.jpg");
+    background-size: cover;
+	cursor: default;
+}
+.collection-fashion{
+	width: 600px;
+	height: 200px;
+    color: white;
+	margin-top: 250px;
+}
+.time{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.fashion-H{
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+
+}
+.fashion-text{
+	font-size: 40px;
+		font-family: 'Raleway',sans-serif;
+
+}
+
+.fashion-text:hover{
+	color: brown;
+	transition: .2s;
+}
+.fashion-para{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+
+}	
+.collection-img2{
+	width: 50%;
+	height: 500px;
+	background-color:#c4c5c6;
+	float: right;
+	background: url("img/img02.jpg");
+    background-size: cover;
+	cursor: default;
+
+}
+
+.collection-trends{
+	width: 600px;
+	height: 200px;
+    color: white;
+    margin-top: 250px;
+}
+.time-x{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.trends{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+
+}
+.trends:hover{
+	color: brown;
+	transition: .2s;
+
+}
+.trends-text{
+	font-size: 28px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.trends-para{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+
+}
+
+
+
+.collection-img3{
+
+    width: 50%;
+    height: 500px;
+    background-color: antiquewhite;
+    float: left;
+    background: url("img/img03.jpg");
+    background-size: cover;
+	cursor: default;
+  }
+
+
+.collection-winter{
+	width: 600px;
+	height: 200px;
+    color: white;
+    margin-top: 250px;
+}
+
+
+
+.time-x{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.winter{
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+
+}
+
+.winter-sale{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.winter-sale:hover{
+	color: brown;
+	transition: .2s;
+}
+.winter-para{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+
+}	
+.collection-article4{
+	width: 50%;
+	height: 500px;
+	background-color:white;
+	float: right;
+	cursor: default;
+}
+
+
+.article-text{
+	width: 473px;
+	height:250px;
+    background-color:white;
+    margin-top: 125px;
+}
+
+.anchor{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.anchor:hover{
+	color: brown;
+	transition: .2s;
+}
+.article-new-season{
+	font-family: 'Raleway',sans-serif;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 400;
+	color: #13171f;
+
+}
+.article-fashion-para{
+	width: 500px;
+	height: 60px;
+	margin-top: 27px;
+	text-align: center;
+	font-size: 14px;
+	font-family:'Raleway', sans-serif;
+    color: #888;
+    line-height: -1.4px;
+}
+
+
+.collection-text{
+
+    width: 50%;
+    height:500px;
+    background-color:white;
+    float: left;
+
+}
+.main-text{
+	width: 450px;
+	height: 200px;
+	margin-top: 150px;
+
+}
+.welcome{    
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+	cursor: default;
+}
+.welcome:hover{
+	color: brown;
+	transition: .2s;
+}	
+.para-text{    
+	width: 473px;
+    height: 130px;
+    font-size: 30px;
+	font-family:'Raleway', sans-serif;
+    text-align: center;
+    color: #454b56;
+    margin-top: 14px;
+
+
+}
+
+
+.collection-img6{
+	width: 50%;
+	height: 500px;
+	background-color:#a8c5ff;
+	float: right;
+	background: url("img/img04.jpg");
+    background-size: cover;
+	cursor: default;
+}
+
+
+
+.collection-model{
+	width: 600px;
+	height: 200px;
+	left: 3.5%;
+    color: white;
+    margin-top: 250px;
+
+
+}
+.time-x{
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.model{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+
+}
+.model:hover{
+	color: brown;
+	transition: .2s;
+}
+.model-text{
+	font-size: 28px;
+	font-family: 'Raleway',sans-serif;
+
+}
+.model-para{
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: 'Raleway',sans-serif;
+
+}
+
+/*Footer Here*/
+footer
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-color:white;
+}
+.footer-align
+{
+	width: 1300px;
+	height: 500px;
+}
+.footer-navigation
+{
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin-top: 120px;
+}
+.footer-navigation li
+{
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	margin: 25px 0px 0px 60px;
+	font-size: 15px;
+}
+.footer-navigation li a
+{
+	color: #9B9B9B;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.footer-navigation li a:hover
+{
+	color: black;
+}
+.footer-logo
+{
+	width: 500px;
+	height: 260px;
+	float: left;
+	margin: 125px 0px 125px 125px;
+}
+.footer-logo h1
+{
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color:black;
+	text-align: center;
+}
+.footer-logo h1 a
+{
+	text-decoration: none;
+	color: black;
+}
+.footer-logo-p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+.copyright
+{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 12px;
+	color: #9B9B9B;
+}
+.footer-newsletter
+{
+	width: 330px;
+	height: 250px;
+	float: left;
+	margin: 125px 0px 125px 125px;
+}
+.footer-newsletter h1
+{
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.footer-newsletter input[type=email]
+{
+	width: 230px;
+	height: 45px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #9B9B9B;
+	border: 2px solid #CDCDCD;
+	text-indent: 10px;
+}
+.footer-newsletter input[type=email]:focus
+{
+	outline: 1px solid #cdcdcd;
+}
+.footer-email-btn
+{
+	width: 50px;
+	height: 49px;
+	background-color: white; 
+	border-top: 2px solid #CDCDCD;
+	border-right:2px solid #CDCDCD;
+	border-bottom: 2px solid #CDCDCD;
+	border-left: 0px;
+	padding-left: 0px;
+	float:right;
+	margin: 20px 46px 0px 0px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.footer-email-btn:hover
+{
+	color:white;
+	background-color: black;
+	border: none;
+}
+.icon-btn-email
+{
+	transform: rotate(90deg);
+}
+.footer-icons
+{
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-top: 40px;
+}
+.f-icons
+{
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #cdcdcd;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.f-icons:hover
+{
+	color: black;
+}
+
+
+/*Footer Here*/
+footer
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-color:white;
+}
+.footer-align
+{
+	width: 1300px;
+	height: 500px;
+}
+.footer-navigation
+{
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin-top: 120px;
+}
+.footer-navigation li
+{
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	margin: 25px 0px 0px 60px;
+	font-size: 15px;
+}
+.footer-navigation li a
+{
+	color: #9B9B9B;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.footer-navigation li a:hover
+{
+	color: black;
+}
+.footer-logo
+{
+	width: 500px;
+	height: 260px;
+	float: left;
+	margin: 125px 0px 125px 125px;
+}
+.footer-logo h1
+{
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color:black;
+	text-align: center;
+}
+.footer-logo h1 a
+{
+	text-decoration: none;
+	color: black;
+}
+.footer-logo-p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+.copyright
+{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 12px;
+	color: #9B9B9B;
+}
+.footer-newsletter
+{
+	width: 330px;
+	height: 250px;
+	float: left;
+	margin: 125px 0px 125px 125px;
+}
+.footer-newsletter h1
+{
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.footer-newsletter input[type=email]
+{
+	width: 230px;
+	height: 45px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #9B9B9B;
+	border: 2px solid #CDCDCD;
+	text-indent: 10px;
+}
+.footer-newsletter input[type=email]:focus
+{
+	outline: 1px solid #cdcdcd;
+}
+.footer-email-btn
+{
+	width: 50px;
+	height: 49px;
+	background-color: white; 
+	border-top: 2px solid #CDCDCD;
+	border-right:2px solid #CDCDCD;
+	border-bottom: 2px solid #CDCDCD;
+	border-left: 0px;
+	padding-left: 0px;
+	float:right;
+	margin: 20px 46px 0px 0px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.footer-email-btn:hover
+{
+	color:white;
+	background-color: black;
+	border: none;
+}
+.icon-btn-email
+{
+	transform: rotate(90deg);
+}
+.footer-icons
+{
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-top: 40px;
+}
+.f-icons
+{
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #cdcdcd;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.f-icons:hover
+{
+	color: black;
+}
+	
